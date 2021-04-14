@@ -1,5 +1,5 @@
 <div class="container">
     <h1>Bienvenidos a nuestra aplicación</h1>
     <button routerLink="/ventas/listado-clientes">Ventas</button>
-    <button routerLink="/recursos-humanos">Recursos Humanos</button>
+    <button *ngIf="isRrhh" routerLink="/recursos-humanos">Recursos Humanos</button>
 </div>
