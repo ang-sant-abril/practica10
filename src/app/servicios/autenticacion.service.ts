@@ -5,7 +5,7 @@ import { Injectable } from '@angular/core';
 })
 export class AutenticacionService {
 
-  rol: string = 'comercial';
+  rol: string = 'rrhh';
 
   constructor() { }
 
