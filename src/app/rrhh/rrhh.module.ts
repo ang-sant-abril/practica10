@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { EmpleadosComponent } from './empleados/empleados.component';
 import { NominasComponent } from './nominas/nominas.component';
 import { RrhhRoutingModule } from './rrhh-routing.module';
+import { CompartidoModule } from '../compartido/compartido.module';
 
 
 
@@ -13,7 +14,8 @@ import { RrhhRoutingModule } from './rrhh-routing.module';
   ],
   imports: [
     CommonModule,
-    RrhhRoutingModule
+    RrhhRoutingModule,
+    CompartidoModule
   ]
 })
 export class RrhhModule { }

@@ -9,6 +9,7 @@ import { VisualizarClienteComponent } from './ventas/visualizar-cliente/visualiz
 import { ListadoClientesComponent } from './ventas/listado-clientes/listado-clientes.component';
 import { NavComponent } from './nav/nav.component';
 import { Pagina404Component } from './pagina404/pagina404.component';
+import { CompartidoModule } from './compartido/compartido.module';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { Pagina404Component } from './pagina404/pagina404.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    CompartidoModule
   ],
   providers: [],
   bootstrap: [AppComponent]
