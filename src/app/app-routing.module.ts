@@ -17,6 +17,10 @@ const routes: Routes = [
     {path: 'crear-cliente', component: CrearClienteComponent},
     {path: 'visualizar-cliente/:id', component: VisualizarClienteComponent}
   ]},
+  { 
+    path: 'recursos-humanos',
+    loadChildren: () => import('./rrhh/rrhh.module').then(m => m.RrhhModule),
+  },
   //{path: '**', redirectTo: ''}
   {path: '**', component: Pagina404Component} // última ruta
 ];
